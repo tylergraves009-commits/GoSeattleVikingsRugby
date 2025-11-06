@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tyler | js demo </title>
+    <link rel="stylesheet" href="css/style.css">
+    <script type="text/javascript" src="js/script.js" ></script>
+</head>
+<body>
+   <h1>JAVA STUFF</h1> 
+   <h2>CLICK EVENTS AND SUTFF</h2>
+   <h2>BOOM BOOM </h2>
+   <p>CLICK <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ&list=RDdQw4w9WgXcQ&start_radio=1"  target="_blank" onclick="alert('WARNING YOUR COMPUTER IS GOING TO EXPLODE')"> HERE  </a> TO FIX YOUR COMPUTER</p>
+
+
+    <h2>DUMB MATH W JA</h2>
+    <p>WHAT IS 1+1</p>
+    <button onclick="document.getElementById('add').innerHTML=2+1">CLICK here for the answer</button>
+    <p id="add"></p>
+
+
+    <h2>CHANGE TEXT W JS</h2>
+    <button onclick="document.getElementById('change-text').innerHTML='This is what I want it to say'">Try it</button>
+    <p id="change-text">TIS CHANGES TEXT</p>
+
+
+    <h2>WE ADD DATE/TIME</h2>
+    <button onclick="document.getElementById('date').innerHTML=Date()">CLICK THIS FOR DATE/TIME</button>
+    <p id="date"></p>
+
+
+    <h2>FUNCTIONS ARE FUN</h2>
+    <p>FUNCTIONS TO ADD TEXT ON A PAGE</p>
+    <button onclick="pFun()">CLICK ME RUN FUNCTIONS</button>
+    <p id="p-fun"></p>
+
+
+    <h2>RETURNInG USER SUTFF</h2>
+    <button onclick="askName()">CLICK HERE AND GIVE ME UR NAME</button>
+    <p id="ask-name"></p>
+    
+
+    <h2>ASKING QUESTIONS</h2>
+    <button onclick="askQuestion()">CLICK HERE FOR HARD QUESTIONS</button>
+    <p id="question"></p>
+   <script>
+    alert("ALERT SOFTFWARE MALFUNCTION RUN IN 3 CIRCLES")
+    alert("YOUR COMPUTER HAS BEEN MESSED UP CALL 778 330 2389")
+    alert("CALL 778 330 2389")
+    alert("CALL 778 330 2389")
+    alert("YOUR COMPUTER IS CORUPT CALL 778 330 2389")
+    alert("YOUR COMUPTER IS SUPER DUPER MESSED UP CALL 778 330 2389")
+    alert("YOUR COMPUTER IS GOING TO GO BOOM\n 🤯🤯🤯🤬🤬🤬🤬🤬🤬💥💥💥🧨🧨🧨💣💣💣" )
+    alert("pleese call this number MS.Holingsted I am not scaming you ")
+    alert("CALL\n778 330 2389 \n CALL 778 330 2389 ");
+
+
+    function pFun(){
+        var p = document.getElementById('p-fun');
+        p.innerHTML='you just ran a function';
+        p.style.color='red';
+        p.style.fontSize='50px'
+    }
+
+
+    function askName() {
+        var nameReturn = document.getElementById('ask-name');
+        var name = prompt('please enter your name in the box below');
+        if (name == "") {
+            alert('I NEED UR NAME NOT NOTHING');
+        } else{
+            nameReturn.innerHTML = 'Hello  ' + name + '! GIVE ME FULL POINTS ON THIS SITE PLEESEEEEE.';
+        }
+
+    }
+
+
+
+
+    
+   </script>
+</body>
+</html>

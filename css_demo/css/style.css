@@ -1,0 +1,43 @@
+.container{
+    background-color:darkorange;
+    margin: 0 auto;
+    border: 1px solid black;
+    padding: 50px
+}
+
+
+
+
+
+body{
+            background-color:rgb(100, 0, 47) ;
+        }
+
+.nav {
+    list-style: none;
+    text-align: center;
+}
+
+.nav li {
+    display: inline;
+    text-align: center;
+}
+
+
+.coppy{
+    text-align: center;
+    background-color: crimson;
+    font-family: fantasy;
+}       
+
+#span1 {
+    color:chartreuse
+     font-family: 'Lavishly Yours';font-size: 40px;
+}
+
+#span2 {
+    font-size: 50px;
+}
+
+#span3 {
+    font-family: 'Lavishly Yours';font-size: 40px;}
